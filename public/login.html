@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Welcome | SkillGlider</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="box">
+  <h2>Login</h2>
 
-  <div class="box">
-    <h1>Welcome to <span style="color:#ff7a00;">SkillGlider</span></h1>
-    <p>Learn • Build • Grow your career</p>
+  <input id="loginUsername" placeholder="Username">
+  <input type="password" id="loginPassword" placeholder="Password">
 
-    <div class="btn-group">
-      <a href="login.html" class="btn">Login</a>
-      <a href="signup.html" class="btn outline">Sign Up</a>
-    </div>
-  </div>
+  <button onclick="login()">Login</button>
+</div>
 
+<script src="auth.js"></script>
 </body>
 </html>
